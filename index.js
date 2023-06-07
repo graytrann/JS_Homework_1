@@ -46,24 +46,6 @@ function ex4() {
 }
 
 function ex5(){
-// VD : N = 123 => 1 + 2 + 3 = 6
-// let n = 429;
-// let rs = 0;
-
-// rs += n % 10;
-// n = Math.floor(n / 10);
-// console.log("n lần 1 ", n);
-// console.log("rs lần 1 ", rs);
-
-// rs += n % 10;
-// n = Math.floor(n / 10);
-// console.log("n lần 2 ", n);
-// console.log("rs lần 2 ", rs);
-
-// rs += n % 10;
-// n = Math.floor(n / 10);
-// console.log("n lần 3 ", n);
-// console.log("rs lần 3 ", rs);
 
 let number = +document.getElementById("input-number").value;
 let sum = 0 ;
