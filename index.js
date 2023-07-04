@@ -45,17 +45,16 @@ function ex4() {
   Chu vi là ${perimeter}`;
 }
 
-function ex5(){
+function ex5() {
+  let number = +document.getElementById("input-number").value;
+  let sum = 0;
 
-let number = +document.getElementById("input-number").value;
-let sum = 0 ;
+  sum = number % 10;
+  number = Math.floor(number / 10);
 
-sum = number % 10;
-number = Math.floor( number/10 );
+  sum += number % 10;
 
-sum += number % 10;
+  let result = document.getElementById("output-sum");
 
-let result = document.getElementById("output-sum");
-
-result.innerHTML = `Kết Quả là : ${sum}`;
+  result.innerHTML = `Kết Quả là : ${sum}`;
 }
